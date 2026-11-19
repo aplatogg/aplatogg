@@ -4,6 +4,19 @@ I build small, fast tools: Go and Rust CLIs, Cloudflare Workers services, and se
 tooling. Most of what I ship is paid or private, so the public repos here are the parts
 that were worth open-sourcing.
 
+[![Plato-Tempmail CI](https://github.com/aplatogg/Plato-Tempmail/actions/workflows/check.yml/badge.svg)](https://github.com/aplatogg/Plato-Tempmail/actions/workflows/check.yml)
+[![nfatools-steam release](https://img.shields.io/github/v/release/aplatogg/nfatools-steam?style=flat-square)](https://github.com/aplatogg/nfatools-steam/releases)
+
+## Now
+
+- **aPlato Tools Recoil** — moving the licence allowlist off a public repo onto a signed
+  delivery endpoint, so the customer HWID list stops being world-readable without
+  breaking installed clients.
+- **Plato-Tempmail** — hardening the multi-tenant side: role tiers, Web Push, and a
+  Playwright suite that runs against the real Worker, not a mock.
+- **CI reliability** — flaky-test scoring from JUnit XML (flakeradar) and the build
+  pipelines behind these repos.
+
 ## Selected work
 
 | Repo | What it is |
@@ -28,17 +41,32 @@ offline cache with signature verification.
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-## Upstream contributions
+Day to day: Windows + PowerShell, Wrangler and D1, Vitest and `node --test`, Biome,
+`go test` and `cargo test`, and a disassembler or two when the source is missing.
 
-Merged work in [nilearn](https://github.com/nilearn/nilearn/pull/6752),
-[phi](https://github.com/pulseaiclub/phi),
-[mcp-memory-service](https://github.com/doobidoo/mcp-memory-service/pull/2053),
-[rapina](https://github.com/rapina-rs/rapina),
-[pysad](https://github.com/selimfirat/pysad),
-[icalendar](https://github.com/PyCalendar/icalendar) and
-[reporters-db](https://github.com/freelawproject/reporters-db).
+## Upstream
+
+| Repo | What landed |
+|---|---|
+| [nilearn](https://github.com/nilearn/nilearn/pull/6752) | `plot_img_comparison` gained `cmap` and `gridsize` |
+| [mcp-memory-service](https://github.com/doobidoo/mcp-memory-service/pull/2053) | Dark-mode search field: theme-aware placeholder and typed text (1.21:1 → 11.31:1) |
+| [phi](https://github.com/pulseaiclub/phi) | Five PRs: zh-CN docs sync, MCP limit message, dead-code drops |
+| [pysad](https://github.com/selimfirat/pysad/pull/805) | `HyperLogLog` distinct-count sketch |
+| [reporters-db](https://github.com/freelawproject/reporters-db/pull/293) | FLRA reporter variation |
+
+Also reviewed [icalendar#2137](https://github.com/PyCalendar/icalendar/pull/2137)
+(1298 tests run against its branch) before it landed.
+
+## How I work
+
+- Reproduce first. A bug report without a failing case is a guess.
+- Verify in the real runtime — a real browser, a real Worker, a real device — not just
+  the unit test that agrees with me.
+- Small diffs, one logical change, and a changelog line a human can read.
+- If a claim goes in a description, it gets measured, not estimated.
 
 ## Contact
 
 - Mail: [aplato.gg@proton.me](mailto:aplato.gg@proton.me)
 - Site: [mail.haldgoff.com](https://mail.haldgoff.com)
+- Open to contract work on Go/Rust tooling, Workers services, and CI/QA automation.
