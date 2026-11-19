@@ -43,3 +43,8 @@ Merged work in [nilearn](https://github.com/nilearn/nilearn/pull/6752),
 [mcp-memory-service](https://github.com/doobidoo/mcp-memory-service/pull/2053),
 [pysad](https://github.com/selimfirat/pysad/pull/805) and
 [reporters-db](https://github.com/freelawproject/reporters-db/pull/293).
+
+## Contact
+
+- Mail: [aplato.gg@proton.me](mailto:aplato.gg@proton.me)
+- Web: [app.platoware.space](https://app.platoware.space)
