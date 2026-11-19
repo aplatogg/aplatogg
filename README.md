@@ -14,8 +14,8 @@ that were worth open-sourcing.
   breaking installed clients.
 - **Plato-Tempmail** — hardening the multi-tenant side: role tiers, Web Push, and a
   Playwright suite that runs against the real Worker, not a mock.
-- **CI reliability** — flaky-test scoring from JUnit XML (flakeradar) and the build
-  pipelines behind these repos.
+- **CI reliability** — browser tests that run against the real Worker and D1, plus the
+  workflow fixes that stopped a dry-run build from reading a file the runner never had.
 
 ## Selected work
 
