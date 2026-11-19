@@ -68,5 +68,5 @@ Also reviewed [icalendar#2137](https://github.com/PyCalendar/icalendar/pull/2137
 ## Contact
 
 - Mail: [aplato.gg@proton.me](mailto:aplato.gg@proton.me)
-- Site: [mail.haldgoff.com](https://mail.haldgoff.com)
+- Site: [app.platoware.space](https://app.platoware.space)
 - Open to contract work on Go/Rust tooling, Workers services, and CI/QA automation.
