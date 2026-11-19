@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=190&section=header&text=platoism&fontSize=54&fontColor=e6edf3&desc=Go%20%C2%B7%20Rust%20%C2%B7%20Cloudflare%20Workers%20%C2%B7%20security%20tooling&descAlignY=64&descSize=15" alt="platoism" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=200&section=header&text=platoism&fontSize=52&fontColor=e6edf3&fontAlignY=38" alt="platoism" />
+
+**Go · Rust · Cloudflare Workers · security tooling**
 
 [![Mail](https://img.shields.io/badge/aplato.gg%40proton.me-6D4AFF?style=flat-square&logo=protonmail&logoColor=white)](mailto:aplato.gg@proton.me)
 [![Site](https://img.shields.io/badge/app.platoware.space-1F6FEB?style=flat-square&logo=googlechrome&logoColor=white)](https://app.platoware.space)
