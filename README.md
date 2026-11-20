@@ -48,3 +48,4 @@ Merged work in [nilearn](https://github.com/nilearn/nilearn/pull/6752),
 
 - Mail: [aplato.gg@proton.me](mailto:aplato.gg@proton.me)
 - Web: [app.platoware.space](https://app.platoware.space)
+- Based in: Jakarta, Indonesia
