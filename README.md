@@ -5,7 +5,6 @@
 **Go · Rust · Cloudflare Workers · security tooling**
 
 [![Mail](https://img.shields.io/badge/aplato.gg%40proton.me-6D4AFF?style=flat-square&logo=protonmail&logoColor=white)](mailto:aplato.gg@proton.me)
-[![Site](https://img.shields.io/badge/app.platoware.space-1F6FEB?style=flat-square&logo=googlechrome&logoColor=white)](https://app.platoware.space)
 
 ![visitors](https://komarev.com/ghpvc/?username=aplatogg&label=visitors&color=1f6feb&style=flat-square)
 
@@ -47,5 +46,4 @@ Merged work in [nilearn](https://github.com/nilearn/nilearn/pull/6752),
 ## Contact
 
 - Mail: [aplato.gg@proton.me](mailto:aplato.gg@proton.me)
-- Web: [app.platoware.space](https://app.platoware.space)
 - Based in: Jakarta, Indonesia
