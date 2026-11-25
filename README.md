@@ -26,11 +26,11 @@ worth open-sourcing.
 ## Selected work
 
 | Repo | What it is |
-|---|---|
+| :--- | :--- |
+| [inboxstealth](https://github.com/aplatogg/inboxstealth) | Zero-dependency multi-domain disposable email platform on Workers, D1 & KV: auto-OTP & magic-link extraction, custom WebAudio alerts, TOTP 2FA, and HMAC webhooks |
+| [tether-notes](https://github.com/aplatogg/tether-notes) | Local-first encrypted notes PWA & Tauri desktop app on Cloudflare Workers + D1 + R2: E2EE vaults, rich editor, command palette, and real-time sync |
 | [Plato-Tempmail](https://github.com/aplatogg/Plato-Tempmail) | Self-hosted temporary mail on Workers + D1: role tiers, Web Push, strict CSP, Playwright-tested in two viewports |
-| [nfatools-steam](https://github.com/aplatogg/nfatools-steam) | Rust tooling around Steam account data |
 | [chess-assistant](https://github.com/aplatogg/chess-assistant) | Stockfish overlay that reads a live Chess.com board over CDP |
-| [steamtools-cleaner](https://github.com/aplatogg/steamtools-cleaner) | PowerShell cleanup for a Steam toolchain |
 
 **aPlato Tools Recoil** (private) — signed licence allowlist, HWID bound to
 `sha256(MachineGuid|Hostname)`, offline cache verified against an embedded Ed25519 key.
